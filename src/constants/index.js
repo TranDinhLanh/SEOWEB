@@ -39,34 +39,28 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Dịch vụ",
+    url: "#how-to-use",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Gói dịch vụ",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
+    title: "Portfolio",
     url: "#roadmap",
   },
   {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    id: "3",
+    title: "Liên hệ",
+    url: "#contact",
   },
   {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
+    id: "4",
+    title: "Zalo",
+    url: "https://zalo.me/",
     onlyMobile: true,
   },
 ];
@@ -78,9 +72,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Thiết kế giao diện chuyên nghiệp",
+  "Tối ưu SEO đầy đủ",
+  "Hỗ trợ đa thiết bị",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,55 +88,55 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Website bán cafe",
+    text: "Thiết kế website bán cafe với menu sản phẩm, combo ưu đãi, đặt hàng nhanh và giao diện tối ưu chuyển đổi.",
+    date: "2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Website pet shop",
+    text: "Xây dựng website pet shop với danh mục thú cưng và phụ kiện, bộ lọc sản phẩm, giỏ hàng và trang tư vấn chăm sóc.",
+    date: "2024",
+    status: "done",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Website buôn bán bất động sản",
+    text: "Phát triển website bất động sản với danh sách dự án, lọc theo khu vực - mức giá, form đăng ký tư vấn và bản đồ vị trí.",
+    date: "2024",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "POS order cafe",
+    text: "Xây dựng hệ thống POS order cafe với gọi món tại quầy, quản lý bàn, in hóa đơn và theo dõi doanh thu theo ca.",
+    date: "2024",
+    status: "done",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Chúng tôi cung cấp giải pháp website toàn diện, từ thiết kế đến phát triển, bảo mật và hỗ trợ kỹ thuật. Đủ để giúp doanh nghiệp của bạn phát triển mạnh mẽ.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Thiết kế chuyên nghiệp",
+    text: "Giao diện đẹp, hút mắt, phù hợp với thương hiệu của bạn.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Tối ưu SEO",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Bảo mật tối đa",
   },
 ];
 
@@ -208,35 +202,43 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Gói Cơ bản",
+    description: "Website tĩnh, thiết kế responsive + tên miền",
+    price: "599k",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Thiết kế responsive trên mọi thiết bị",
+      "Tặng tên miền .site/.online dùng 1 năm",
+      "Tối ưu hình ảnh và tốc độ tải",
+      "Bảo mật cơ bản (SSL)",
+      "Miễn phí hỗ trợ 3 tháng",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Gói Chuyên Nghiệp",
+    description: "Website động, CMS, tối ưu SEO + tên miền",
+    price: "1999k",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Website động với hệ thống quản lý nội dung",
+      "Tặng tên miền .com/.net dùng 1 năm",
+      "Tối ưu SEO chuẩn Google",
+      "Tích hợp form liên hệ, chat tư vấn",
+      "Hỗ trợ 6 tháng miễn phí",
+      "Backup dữ liệu hàng tháng",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Gói Enterprise",
+    description: "Website thương mại điện tử, API tích hợp + tên miền cao cấp",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Website ecommerce đầy đủ (sản phẩm, giỏ hàng, thanh toán)",
+      "Tư vấn và cấu hình tên miền thương hiệu (.com/.vn)",
+      "Tối ưu SEO cấp cao + Analytics",
+      "Hệ thống khách hàng, marketing",
+      "Hỗ trợ 12 tháng + cộng tác viên dành riêng",
+      "Backup hàng tuần, BDS bảo vệ",
     ],
   },
 ];
@@ -244,16 +246,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Thiết kế Responsive",
+    text: "Website của bạn sẽ hoạt động hoàn hảo trên mọi thiết bị, từ điện thoại đến desktop. Trải nghiệm người dùng tuyệt vời trên tất cả các nền tảng.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Tối ưu SEO",
+    text: "Website được tối ưu hóa hoàn toàn cho các công cụ tìm kiếm, giúp bạn xếp hạng cao trên Google và thu hút khách hàng tiềm năng.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +263,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Bảo mật Cao",
+    text: "Dữ liệu khách hàng của bạn được bảo vệ bằng mã hóa SSL hiện đại. Tuân thủ các tiêu chuẩn bảo mật quốc tế.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Tốc độ Nhanh",
+    text: "Website tải nhanh chóng, giảm độ trễ và tăng tỷ lệ chuyển đổi của bạn. Tối ưu hóa hình ảnh và code.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +280,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Hỗ trợ 24/7",
+    text: "Đội ngũ chuyên gia của chúng tôi luôn sẵn sàng hỗ trợ bạn. Nhanh chóng giải quyết các vấn đề kỹ thuật.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Dễ Quản lý",
+    text: "Giao diện quản trị trực quan, dễ sử dụng. Cập nhật nội dung mà không cần kiến thức lập trình.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
