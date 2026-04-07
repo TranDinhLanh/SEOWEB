@@ -11,7 +11,7 @@ const Roadmap = () => (
     <div className="container md:pb-10">
       <Heading tag="Các dự án thực tế" title="Portfolio của chúng tôi" />
 
-      <div className="relative grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6 md:pb-[7rem]">
+      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
 
@@ -22,7 +22,7 @@ const Roadmap = () => (
               } max-w-[24rem] mx-auto md:max-w-none`}
               key={item.id}
             >
-              <div className="relative p-4 md:p-8 lg:p-15 bg-n-8 rounded-[2rem] md:rounded-[2.4375rem] overflow-hidden">
+              <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                 <div className="absolute top-0 left-0 max-w-full">
                   <img
                     className="w-full"
@@ -57,8 +57,8 @@ const Roadmap = () => (
                       alt={item.title}
                     />
                   </div>
-                  <h4 className="h6 md:h4 mb-2 md:mb-4">{item.title}</h4>
-                  <p className="body-2 text-[10px] md:text-base text-n-4 line-clamp-3 md:line-clamp-none">{item.text}</p>
+                  <h4 className="h4 mb-4">{item.title}</h4>
+                  <p className="body-2 text-n-4">{item.text}</p>
                 </div>
               </div>
             </div>

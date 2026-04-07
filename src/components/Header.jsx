@@ -35,13 +35,13 @@ const Header = () => {
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+      <div className="flex items-center pl-1 pr-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[8rem] md:w-[12rem] xl:mr-8" href="#hero">
           <img src={brainwave} className="h-6 md:h-10 w-auto" alt="Logo" />
         </a>
 
         <nav
-          className="lg:static flex lg:mx-auto bg-transparent ml-auto lg:ml-0"
+          className="lg:static flex lg:mx-auto bg-transparent lg:ml-0"
         >
           <div className="relative z-2 flex flex-row items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
@@ -49,9 +49,9 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-[10px] md:text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-[9px] md:text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-2 py-2 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                } px-1.5 py-2 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold whitespace-nowrap ${
                   item.url === pathname.hash
                     ? "z-2 lg:text-n-1"
                     : "lg:text-n-1/50"
