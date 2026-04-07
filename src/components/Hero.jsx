@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Thiết kế Website Chuyên Nghiệp {` `}
+            Hệ thống POS & Website {` `}
             <span className="inline-block relative">
-              Cho Doanh Nghiệp{" "}
+              Chuyên Nghiệp{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,9 +36,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Chúng tôi cung cấp dịch vụ thiết kế website chuyên nghiệp, tối ưu SEO, 
-            giao diện đẹp và công năng mạnh mẽ. Hãy liên hệ với chúng tôi để tạo 
-            website ước mơ của bạn.
+            Giải pháp toàn diện cho Cafe, Bida, Nhà hàng & Doanh nghiệp. Từ thiết kế 
+            Menu/Landing Page đến Hệ thống POS quản lý mạnh mẽ, tối ưu SEO.
           </p>
           <Button href="#contact" white>
             Liên hệ ngay

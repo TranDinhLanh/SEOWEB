@@ -28,6 +28,7 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
+  roadmap5,
   searchMd,
   slack,
   sliders04,
@@ -49,7 +50,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Portfolio",
+    title: "Dự án",
     url: "#roadmap",
   },
   {
@@ -72,9 +73,10 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Thiết kế giao diện chuyên nghiệp",
-  "Tối ưu SEO đầy đủ",
-  "Hỗ trợ đa thiết bị",
+  "Thiết kế Menu & Landing Page",
+  "Hệ thống POS Order /Nhà hàng/Cafe/Bida",
+  "Công cụ quản lý bán hàng takeaway, ship hàng, cá nhân",
+  "Tối ưu SEO & Quảng cáo",
 ];
 
 export const brainwaveServicesIcons = [
@@ -113,11 +115,19 @@ export const roadmap = [
   },
   {
     id: "3",
-    title: "POS order cafe",
-    text: "Xây dựng hệ thống POS order cafe với gọi món tại quầy, quản lý bàn, in hóa đơn và theo dõi doanh thu theo ca.",
+    title: "POS order quán ăn ,cafe & bida",
+    text: "Hệ thống POS chuyên sâu cho quán ăn ,cafe và bida: gọi món, quản lý bàn, tính giờ bida và in hóa đơn cực nhanh.",
     date: "2026",
     status: "done",
     imageUrl: roadmap4,
+  },
+  {
+    id: "4",
+    title: "Thiết kế Menu & Landing Page",
+    text: "Bộ nhận diện và website bán hàng tối ưu cho chuỗi quán ăn, cafe, giúp tăng doanh thu hiệu quả.",
+    date: "2025",
+    status: "done",
+    imageUrl: roadmap5,
   },
 ];
 
@@ -204,40 +214,43 @@ export const pricing = [
     id: "0",
     title: "Gói Cơ bản",
     description: "Website tĩnh, thiết kế responsive + tên miền",
-    price: "599k",
+    price: "699k",
     features: [
+      "1-3 ngày hoàn thành",
       "Thiết kế responsive trên mọi thiết bị",
-      "Tặng tên miền .site/.online dùng 1 năm",
+      "Tặng tên miền .site/.online ",
       "Tối ưu hình ảnh và tốc độ tải",
       "Bảo mật cơ bản (SSL)",
-      "Miễn phí hỗ trợ 3 tháng",
+      "Hỗ trợ bảo hành trọn đời",
     ],
   },
   {
     id: "1",
     title: "Gói Chuyên Nghiệp",
     description: "Website động, CMS, tối ưu SEO + tên miền",
-    price: "1999k",
+    price: "1899k",
     features: [
-      "Website động với hệ thống quản lý nội dung",
+      '7-10 ngày hoàn thành',
+      "Website động + Landing Page quảng cáo",
       "Tặng tên miền .com/.net dùng 1 năm",
       "Tối ưu SEO chuẩn Google",
       "Tích hợp form liên hệ, chat tư vấn",
-      "Hỗ trợ 6 tháng miễn phí",
+      "Hỗ trợ bảo hành miễn phí",
       "Backup dữ liệu hàng tháng",
     ],
   },
   {
     id: "2",
-    title: "Gói Enterprise",
+    title: "Gói Custom",
     description: "Website thương mại điện tử, API tích hợp + tên miền cao cấp",
     price: null,
     features: [
-      "Website ecommerce đầy đủ (sản phẩm, giỏ hàng, thanh toán)",
+      "Website ecommerce hoặc Hệ thống Quản lý Bán hàng",
+      "Tích hợp POS Order Cafe, Bida, Nhà hàng",
       "Tư vấn và cấu hình tên miền thương hiệu (.com/.vn)",
       "Tối ưu SEO cấp cao + Analytics",
       "Hệ thống khách hàng, marketing",
-      "Hỗ trợ 12 tháng + cộng tác viên dành riêng",
+      "Hỗ trợ trọn đời + cộng tác viên dành riêng",
       "Backup hàng tuần, BDS bảo vệ",
     ],
   },
@@ -288,10 +301,27 @@ export const benefits = [
   },
   {
     id: "5",
-    title: "Dễ Quản lý",
-    text: "Giao diện quản trị trực quan, dễ sử dụng. Cập nhật nội dung mà không cần kiến thức lập trình.",
+    title: "Thiết kế Menu",
+    text: "Thiết kế menu chuyên nghiệp, thu hút cho quán ăn & cafe. Tăng tính thẩm mỹ và chuyên nghiệp cho thương hiệu của bạn.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "6",
+    title: "POS Order",
+    text: "Hệ thống POS chuyên dùng cho quán ăn, Bida, Cafe. Hỗ trợ tính giờ tự động, in hóa đơn và quản lý bàn hiệu quả.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "7",
+    title: "Landing Quảng Cáo",
+    text: "Xây dựng Landing Page tối ưu chuyển đổi, giúp chiến dịch quảng cáo quán ăn, cafe của bạn đạt hiệu quả cao nhất.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
   },
 ];

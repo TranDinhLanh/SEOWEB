@@ -16,12 +16,12 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Dịch vụ thiết kế website chuyên nghiệp"
-          text="Chúng tôi cung cấp đầy đủ các dịch vụ từ thiết kế, phát triển đến tối ưu SEO"
+          title="Giải pháp Công nghệ & Thiết kế toàn diện"
+          text="Từ thiết kế Menu/Landing Page đến Hệ thống POS chuyên sâu cho Cafe, Bida & Nhà hàng"
         />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem] min-h-[32rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -53,8 +53,8 @@ const Services = () => {
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+          <div className="relative z-1 grid gap-4 grid-cols-2 lg:grid-cols-2">
+            <div className="relative min-h-[16rem] md:min-h-[39rem] border border-n-1/10 rounded-2xl md:rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
                   src={service2}
@@ -65,9 +65,9 @@ const Services = () => {
                 />
               </div>
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Tối ưu SEO</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
+              <div className="absolute inset-0 flex flex-col justify-end p-4 md:p-8 lg:p-15 bg-gradient-to-b from-n-8/0 to-n-8/90">
+                <h4 className="h6 md:h4 mb-2 md:mb-4">Tối ưu SEO</h4>
+                <p className="body-2 text-[10px] md:text-base mb-2 md:mb-[3rem] text-n-3">
                   Website tối ưu từ đầu đến cuối để xếp hạng cao trên công cụ tìm kiếm.
                 </p>
               </div>
@@ -76,9 +76,9 @@ const Services = () => {
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
-              <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Hỗ trợ kỹ thuật</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
+              <div className="py-6 px-2 md:py-12 md:px-4 xl:px-8">
+                <h4 className="h6 md:h4 mb-2 md:mb-4">Hỗ trợ kỹ thuật</h4>
+                <p className="body-2 text-[10px] md:text-base mb-2 md:mb-[2rem] text-n-3">
                   Đội ngũ chuyên gia sẵn sàng hỗ trợ, bảo trì và nâng cấp website của bạn.
                 </p>
 

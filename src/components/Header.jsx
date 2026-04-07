@@ -36,24 +36,22 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={brainwave} className="h-10 w-auto" alt="Logo" />
+        <a className="block w-[8rem] md:w-[12rem] xl:mr-8" href="#hero">
+          <img src={brainwave} className="h-6 md:h-10 w-auto" alt="Logo" />
         </a>
 
         <nav
-          className={`${
-            openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          className="lg:static flex lg:mx-auto bg-transparent ml-auto lg:ml-0"
         >
-          <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+          <div className="relative z-2 flex flex-row items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-[10px] md:text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                } px-2 py-2 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
                     ? "z-2 lg:text-n-1"
                     : "lg:text-n-1/50"
@@ -63,8 +61,6 @@ const Header = () => {
               </a>
             ))}
           </div>
-
-          <HamburgerMenu />
         </nav>
 
         <a
@@ -77,13 +73,6 @@ const Header = () => {
           Tư vấn ngay
         </Button>
 
-        <Button
-          className="ml-auto lg:hidden"
-          px="px-3"
-          onClick={toggleNavigation}
-        >
-          <MenuSvg openNavigation={openNavigation} />
-        </Button>
       </div>
     </div>
   );
